@@ -1,6 +1,7 @@
 Options -Multiviews
 RewriteEngine On
 
+#Anything after this part of URL is passed to the App.php parseURL()  
 RewriteBase /cwhack/public/
 
 RewriteCond %{REQUEST_FILENAME} !-d
