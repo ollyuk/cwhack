@@ -1,5 +1,1 @@
-<?php
-
-require_once '../app/init.php';
-
-$app = new App;
+Hello <?=$data['name']?>
